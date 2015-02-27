@@ -1,0 +1,16 @@
+[user]
+  name = Avin Mathew
+  email = amathew@assetricity.com
+[color]
+  ui = true
+[alias]
+  l = log --graph --pretty=format:'%C(yellow)%h%C(cyan)%d%Creset %s %C(red)%an%Creset %C(green)%ar%Creset' -10
+  la = log --graph --all --pretty=format:'%C(yellow)%h%C(cyan)%d%Creset %s %C(red)%an%Creset %C(green)%ar%Creset'
+
+[core]
+  autocrlf = input
+  editor = vim
+  fileMode = false
+
+[push]
+  default = simple
